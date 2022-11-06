@@ -1,0 +1,15 @@
+Nodejs setup
+
+1.Create a new folder 
+2.Inside the folder open vs code and open terminal cmd - npm init -y (package.json file will create)
+3.Next cmd - npm i express (package-lock.json and node_modules will create)
+4.Create a app.js file (config node and express and port )
+5.Create .env file (config port)
+6.Next cmd - npm i dotenv --save (process the .env file)
+7.Next cmd - npm install nodemon (instant start node app by save) and change package.json file under the scripts "dev": "nodemon app.js"
+8.Run - npm run dev (server will start) 
+9.Now add the folders - mkdir models routes controllers
+10.Now config separate routes in app.js -e.g (USER.JS -> USERCONTROLLER.JS -> USERMODEL.JS)
+
+for this mern app we create separate mail for db and hosting
+mernstacktut@gmail.com // Mi#

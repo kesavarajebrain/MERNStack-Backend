@@ -4,11 +4,16 @@ const express = require("express");
 //config mongoose
 const mongoose = require("mongoose");
 
+// cors
+const cors = require('cors');
 //config app
 const app = express();
 
 // config env
 require("dotenv").config();
+
+// cors
+app.use(cors());
 
 //handling json
 app.use(express.json());
